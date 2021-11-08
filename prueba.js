@@ -31,6 +31,8 @@ function traerEstudiantes(){
                 <td>${estudiante.name.last}</td>
                 <td>${estudiante.dob.age}</td>
                 <td>${estudiante.email}</td>
+                <td>${estudiante.location.country}</td>
+                <td>${estudiante.phone}</td>
             </tr>`
             };
             //console.log(lista);
